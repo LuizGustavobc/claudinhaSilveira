@@ -590,6 +590,7 @@ footer {
   .contato form{
     width: 80%;
     padding: 20px;
+    text-align: center;
   }
 }
 
@@ -656,22 +657,7 @@ footer {
   #menuSecundario .submenu {
     position: static;
     transform: none;
-    margin-top: 10px;
-    width: 100%;
-    box-shadow: none;
-    border: 1px solid rgba(134, 21, 46, 0.18);
-    grid-template-columns: 1fr;
-  }
-  #menuSecundario .submenu-link {
-    justify-content: center;
-  }
-  
-}
-@media (min-width: 900px) {
-  
-  .contato form{
-    width: 55%;
-    padding: 20px;
+    margin-top: 10px; 
   }
 }
 @media (min-width: 1200px) {
